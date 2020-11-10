@@ -1,0 +1,7 @@
+<!--pages/weather/weather.wxml-->
+<text>pages/weather/weather.wxml</text>
+
+<view>
+  <web-view src="https://mp.weixin.qq.com">
+  </web-view>
+</view>

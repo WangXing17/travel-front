@@ -1,0 +1,31 @@
+  {
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weather/weather"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "testDemo ",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "position":"top",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    },
+    {
+      "pagePath": "pages/weather/weather",
+      "text": "天气"
+    },
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
